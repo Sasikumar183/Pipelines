@@ -26,5 +26,4 @@ class Pipeline:
         content = await file.read()
         content_str = content.decode('utf-8', errors='ignore')  # Decode with error handling
         print(content_str)
-        return "Hello"
         return content_str
