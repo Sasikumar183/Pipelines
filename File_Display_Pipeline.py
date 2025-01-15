@@ -41,7 +41,7 @@ class Pipeline:
         file_content = body.get("file_content")
 
         if not file_content:
-            return "No file uploaded."
+            return "No file uploaded here."
 
         try:
             decoded_content = base64.b64decode(file_content).decode('utf-8')
